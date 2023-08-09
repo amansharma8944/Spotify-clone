@@ -1,0 +1,167 @@
+
+body{
+    font-family: 'Exo 2', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.navigation-bar{
+    display:flex;
+    background-color:black;
+    color:white;
+    height:50px;
+}
+.flex{
+
+    display:flex;
+}
+
+ .nav-logo img{
+    height: 45px;
+    padding:0px 10px;
+}
+.nav-logo{
+    align-items: center;
+    /* padding:0px 50px; */
+
+}
+.nav-logo p{
+    font-weight:900;
+    font-size:25px;
+}
+.nav-text ul{
+    align-items:center;
+    height:50px;
+}
+.nav-text ul li{
+    list-style: none;
+    align-items:center;
+    padding:0px 25px;
+    font-size:15px;
+    font-weight:900;
+}
+
+/* ---------- */
+.songs-container{
+
+
+
+    min-height: 100vh;
+    width:70%;
+    margin: 23px auto;
+ background-image:url("bg.jpg");
+ background-position: center;
+ padding-bottom:25px;
+ border-radius:15px;
+}
+
+/*  ------ */
+.songList h1{
+    color:white;
+    margin-left:50px;
+    margin-top: 2px;
+    
+}
+.songList{
+    padding-top: 42px;
+
+}
+
+.songItem{
+    margin: 24px 0px -1px 25px;
+    background-color: white;
+    height: 19px;
+    border-radius: 34px;
+    padding: 10px;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* --- */
+.bottom-container{
+    height:130px;
+    background-color: black;
+    padding:1px;
+    position:sticky;
+    bottom:0px;
+}
+#range{
+    width:80%;
+    display:block;
+    margin:25px auto;
+}
+
+#previous,#next,#masterplay{
+    color:white;
+    /* height: 15px;
+     */
+     margin: 5px;
+
+     
+}
+
+.icons{
+    margin-left: 45vw;
+}
+
+.songItem img,span,i{
+    margin-left: 39px;
+}
+
+/* ---------------------- */
+.songItem img{
+    height: 26px;
+    margin-left: 9px;
+    border-radius: 18px;
+}
+.songItem span{
+    margin-bottom:10px;
+}
+
+#previous,#masterplay,#next:hover{
+ 
+    
+
+    cursor:pointer;
+}
+.timestamp i:hover{
+    cursor:pointer;
+    
+}
+#range{
+    cursor: pointer;
+}
+.no-volume{
+    color:white;
+    margin-left:243px;
+    cursor:pointer;
+}
+.yes-voume{
+    color:white;
+    margin-left:-123px;
+cursor:pointer;
+
+}
+.pos,.pos2{
+    position: absolute;
+    color: white;
+    top: 90px;
+    bottom: -33px;
+    left: 68vw;
+    padding: 0px;
+
+
+
+
+}
+
+
+.pos{
+left:1123px;
+}
+.pos2{
+    left:1031px;
+}
